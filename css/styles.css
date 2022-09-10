@@ -1,0 +1,190 @@
+
+body {
+  margin: 0;
+  color: #40514E;
+  background-color: #F7F2E7;
+  text-align: center;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  min-height: 100vh;
+}
+h1 {
+  color: #797A7E;
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #797A7E;
+  padding-top: 10px;
+}
+
+h3 {
+  color: #797A7E;
+}
+
+h4 {
+  color: #797A7E;
+}
+
+hr {
+  border-color: #D8D3CD;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #797A7E;
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+a:hover {
+  color: #ada9a5;
+}
+
+/********** CLASS TAGS **********/
+.top-container {
+  position: relative;
+  margin: 50px auto 0 auto;
+}
+
+.introduction {
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 2.625rem;
+  font-stretch: ultra-expanded;
+  color: #797A7E;
+  margin: 0;
+}
+
+.profile-img {
+  margin-left: 0;
+}
+
+.about-me {
+  padding: 15px;
+  line-height: 2;
+}
+
+.middle-container {
+  display: grid;
+  grid-template-columns: 1fr 564px;
+  gap: 10px;
+  grid-auto-flow: column;
+  background-color: white;
+  opacity: .85;
+  height: 600px;
+  width: 85%;
+  margin: auto auto 30px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.experience-container {
+  margin: 50px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.certificate-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.accent-photo {
+  position: absolute;
+  right: 0px;
+}
+
+.diploma-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.certificate-img {
+  float: right;
+  margin: 100px auto auto 30px;
+}
+
+.certificate-table {
+  text-align: left;
+}
+
+.btn {
+  background: #D8D3CD;
+  background-image: -webkit-linear-gradient(top, #D8D3CD, #ada9a4);
+  background-image: -moz-linear-gradient(top, #D8D3CD, #ada9a4);
+  background-image: -ms-linear-gradient(top, #D8D3CD, #ada9a4);
+  background-image: -o-linear-gradient(top, #D8D3CD, #ada9a4);
+  background-image: linear-gradient(to bottom, #D8D3CD, #ada9a4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Libre Baskerville';
+  color: #797a7e;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 25px auto 25px auto;
+}
+
+.btn:hover {
+  background: #e6e1da;
+  background-image: -webkit-linear-gradient(top, #e6e1da, #d8d3cd);
+  background-image: -moz-linear-gradient(top, #e6e1da, #d8d3cd);
+  background-image: -ms-linear-gradient(top, #e6e1da, #d8d3cd);
+  background-image: -o-linear-gradient(top, #e6e1da, #d8d3cd);
+  background-image: linear-gradient(to bottom, #e6e1da, #d8d3cd);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #E0ECE4;
+  bottom: 0;
+  padding: 40px 0 40px;
+  margin-top: 30px;
+}
+
+.contact-bottom {
+  background-color: #E0ECE4;
+  bottom: 0;
+  padding: 40px 0 40px;
+  margin-top: 30px;
+}
+
+.footer-link {
+  color: #797A7E;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.resume-link {
+  margin: auto;
+  text-align: center;
+}
+
+.copyright {
+  color: #797A7E;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-table {
+  margin-left: 30px;
+  text-align: left;
+}
